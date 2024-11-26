@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: udata\n"
+"Project-Id-Version: projet_crowdin\n"
 "Report-Msgid-Bugs-To: i18n@opendata.team\n"
-"POT-Creation-Date: 2024-11-15 10:00+0100\n"
-"PO-Revision-Date: 2024-11-15 14:15\n"
+"POT-Creation-Date: 2024-11-19 11:00+0100\n"
+"PO-Revision-Date: 2024-11-26 22:41\n"
 "Last-Translator: Open Data Team <i18n@opendata.team>\n"
-"Language: es\n"
-"Language-Team: Spanish\n"
+"Language: es_MX\n"
+"Language-Team: Spanish, Mexico\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Crowdin-Project: udata\n"
-"X-Crowdin-Project-ID: 291291\n"
-"X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: /master/udata/translations/udata.pot\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-Project: projet_crowdin\n"
+"X-Crowdin-Project-ID: 740493\n"
+"X-Crowdin-Language: es-MX\n"
+"X-Crowdin-File: /[emilieattitso.udata] temporal_coverage_with_only_start_date_bis/udata/translations/udata.pot\n"
+"X-Crowdin-File-ID: 460\n"
 
 #: udata/settings.py:101
 msgid "Welcome"
@@ -50,7 +50,7 @@ msgstr ""
 msgid "Invalid URL \"{url}\": {reason}"
 msgstr ""
 
-#: udata/tests/api/test_datasets_api.py:810 udata/tests/test_model.py:367
+#: udata/tests/api/test_datasets_api.py:831 udata/tests/test_model.py:367
 #: udata/uris.py:55
 msgid "Invalid URL \"{url}\""
 msgstr ""
@@ -198,7 +198,7 @@ msgstr ""
 msgid "Your udata instance is ready!"
 msgstr ""
 
-#: udata/core/owned.py:53 udata/forms/fields.py:735
+#: udata/core/owned.py:53 udata/forms/fields.py:741
 #: udata/tests/api/test_dataservices_api.py:407
 msgid "You can only set yourself as owner"
 msgstr "Sólo puede establecerse usted mismo como propietario"
@@ -207,7 +207,7 @@ msgstr "Sólo puede establecerse usted mismo como propietario"
 msgid "Unknown organization"
 msgstr ""
 
-#: udata/core/owned.py:66 udata/forms/fields.py:756
+#: udata/core/owned.py:66 udata/forms/fields.py:762
 #: udata/tests/api/test_dataservices_api.py:421
 msgid "Permission denied for this organization"
 msgstr "Permiso negado para esta organización"
@@ -249,12 +249,12 @@ msgstr "Publicar como"
 msgid "At least an email or a contact form is required for a contact point"
 msgstr ""
 
-#: udata/core/dataservices/models.py:163 udata/core/dataset/models.py:568
+#: udata/core/dataservices/models.py:164 udata/core/dataset/models.py:568
 #: udata/mongo/datetime_fields.py:60
 msgid "Creation date"
 msgstr "Fecha de creación"
 
-#: udata/core/dataservices/models.py:168 udata/core/dataset/models.py:571
+#: udata/core/dataservices/models.py:169 udata/core/dataset/models.py:571
 #: udata/mongo/datetime_fields.py:66
 msgid "Last modification date"
 msgstr "Ultima fecha de creación "
@@ -451,7 +451,7 @@ msgstr ""
 
 #: udata/core/dataset/forms.py:84 udata/harvest/forms.py:82
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: udata/core/dataset/forms.py:86
 msgid "Format"
@@ -477,7 +477,7 @@ msgstr "Tamño del archivo en bytes"
 msgid "Related dataset"
 msgstr "Conjunto de datos relacionado"
 
-#: udata/core/dataset/forms.py:134 udata/tests/api/test_datasets_api.py:725
+#: udata/core/dataset/forms.py:134 udata/tests/api/test_datasets_api.py:746
 msgid "Wrong contact point id or contact point ownership mismatch"
 msgstr ""
 
@@ -551,18 +551,18 @@ msgstr "Datos centrales"
 msgid "A schema must contains a name or an URL when a version is provided."
 msgstr ""
 
-#: udata/core/dataset/models.py:166 udata/tests/api/test_datasets_api.py:818
-#: udata/tests/api/test_datasets_api.py:829
+#: udata/core/dataset/models.py:166 udata/tests/api/test_datasets_api.py:839
+#: udata/tests/api/test_datasets_api.py:850
 msgid "Schema name \"{schema}\" is not an allowed value. Allowed values: {values}"
 msgstr ""
 
-#: udata/core/dataset/models.py:185 udata/tests/api/test_datasets_api.py:840
+#: udata/core/dataset/models.py:185 udata/tests/api/test_datasets_api.py:861
 msgid "Version \"{version}\" is not an allowed value for the schema \"{name}\". Allowed versions: {values}"
 msgstr ""
 
-#: udata/core/dataset/models.py:462 udata/core/dataset/rdf.py:503
-#: udata/tests/dataset/test_dataset_rdf.py:556
+#: udata/core/dataset/models.py:462 udata/core/dataset/rdf.py:508
 #: udata/tests/dataset/test_dataset_rdf.py:569
+#: udata/tests/dataset/test_dataset_rdf.py:582
 msgid "Nameless resource"
 msgstr "Expedientes sin nombre"
 
@@ -574,7 +574,7 @@ msgstr "La futura fecha de actualización"
 msgid "dataset"
 msgstr "conjunto de datos"
 
-#: udata/core/dataset/rdf.py:501 udata/tests/dataset/test_dataset_rdf.py:543
+#: udata/core/dataset/rdf.py:506 udata/tests/dataset/test_dataset_rdf.py:556
 msgid "{format} resource"
 msgstr ""
 
@@ -934,7 +934,7 @@ msgstr "Esta URL ya está registrada"
 msgid "reuse"
 msgstr "reutilización"
 
-#: udata/core/reuse/tasks.py:45
+#: udata/core/reuse/tasks.py:46
 msgid "New reuse"
 msgstr "Nueva reutilización"
 
@@ -1068,7 +1068,7 @@ msgstr "ha seguido una reutilización "
 
 #: udata/core/user/forms.py:22
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: udata/core/user/forms.py:24
 msgid "About"
@@ -1145,11 +1145,11 @@ msgstr "Modelo para {0} no encontrado"
 msgid "Unknown identifiers: {identifiers}"
 msgstr ""
 
-#: udata/forms/fields.py:707
+#: udata/forms/fields.py:713
 msgid "Unable to parse date range"
 msgstr "Incapaz de analizar el rango de los datos"
 
-#: udata/forms/fields.py:733 udata/forms/fields.py:754
+#: udata/forms/fields.py:739 udata/forms/fields.py:760
 msgid "You must be authenticated"
 msgstr "Usted debe estar autentificado"
 
