@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: udata\n"
+"Project-Id-Version: projet_crowdin\n"
 "Report-Msgid-Bugs-To: i18n@opendata.team\n"
-"POT-Creation-Date: 2024-07-10 14:52+0200\n"
-"PO-Revision-Date: 2024-07-10 13:16\n"
+"POT-Creation-Date: 2024-07-22 08:45+0200\n"
+"PO-Revision-Date: 2024-11-26 22:16\n"
 "Last-Translator: Open Data Team <i18n@opendata.team>\n"
-"Language: es\n"
-"Language-Team: Spanish\n"
+"Language: es_MX\n"
+"Language-Team: Spanish, Mexico\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Crowdin-Project: udata\n"
-"X-Crowdin-Project-ID: 291291\n"
-"X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: /master/udata/translations/udata.pot\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-Project: projet_crowdin\n"
+"X-Crowdin-Project-ID: 740493\n"
+"X-Crowdin-Language: es-MX\n"
+"X-Crowdin-File: /[emilieattitso.udata] allow_reporting_without_auth/udata/translations/udata.pot\n"
+"X-Crowdin-File-ID: 220\n"
 
 #: udata/settings.py:103
 msgid "Welcome"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "Password reset instructions"
 msgstr ""
 
-#: udata/settings.py:435
+#: udata/settings.py:437
 msgid "This dataset has been archived"
 msgstr ""
 
@@ -50,7 +50,8 @@ msgstr ""
 msgid "Invalid URL \"{url}\": {reason}"
 msgstr ""
 
-#: udata/tests/test_model.py:370 udata/uris.py:54
+#: udata/tests/api/test_datasets_api.py:764 udata/tests/test_model.py:370
+#: udata/uris.py:54
 msgid "Invalid URL \"{url}\""
 msgstr ""
 
@@ -78,7 +79,7 @@ msgstr ""
 msgid "is a local URL"
 msgstr ""
 
-#: udata/uris.py:130
+#: udata/tests/test_model.py:388 udata/uris.py:130
 msgid "is a private URL"
 msgstr ""
 
@@ -440,7 +441,7 @@ msgstr ""
 #: udata/core/dataset/forms.py:67 udata/core/reuse/forms.py:27
 #: udata/harvest/forms.py:64
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: udata/core/dataset/forms.py:69
 msgid "Format"
@@ -1071,7 +1072,7 @@ msgstr "ha seguido una reutilización "
 
 #: udata/core/user/forms.py:19
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: udata/core/user/forms.py:21
 msgid "About"
@@ -1590,10 +1591,6 @@ msgstr ""
 
 #: udata/templates/security/email/welcome_existing.html:25
 msgid "Here"
-msgstr ""
-
-#: udata/tests/api/test_datasets_api.py:764
-msgid "Invalid URL \"test\""
 msgstr ""
 
 #: udata/tests/forms/test_model_field.py:155

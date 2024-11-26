@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: udata\n"
+"Project-Id-Version: projet_crowdin\n"
 "Report-Msgid-Bugs-To: i18n@opendata.team\n"
-"POT-Creation-Date: 2024-07-10 14:52+0200\n"
-"PO-Revision-Date: 2024-07-10 13:16\n"
+"POT-Creation-Date: 2024-07-22 08:45+0200\n"
+"PO-Revision-Date: 2024-11-26 22:16\n"
 "Last-Translator: Open Data Team <i18n@opendata.team>\n"
 "Language: it\n"
 "Language-Team: Italian\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Crowdin-Project: udata\n"
-"X-Crowdin-Project-ID: 291291\n"
+"X-Crowdin-Project: projet_crowdin\n"
+"X-Crowdin-Project-ID: 740493\n"
 "X-Crowdin-Language: it\n"
-"X-Crowdin-File: /master/udata/translations/udata.pot\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-File: /[emilieattitso.udata] allow_reporting_without_auth/udata/translations/udata.pot\n"
+"X-Crowdin-File-ID: 220\n"
 
 #: udata/settings.py:103
 msgid "Welcome"
@@ -42,7 +42,7 @@ msgstr "La tua password è stata modificata"
 msgid "Password reset instructions"
 msgstr "Istruzioni per reimpostare la password"
 
-#: udata/settings.py:435
+#: udata/settings.py:437
 msgid "This dataset has been archived"
 msgstr "Questo dataset è stato archiviato"
 
@@ -50,7 +50,8 @@ msgstr "Questo dataset è stato archiviato"
 msgid "Invalid URL \"{url}\": {reason}"
 msgstr ""
 
-#: udata/tests/test_model.py:370 udata/uris.py:54
+#: udata/tests/api/test_datasets_api.py:764 udata/tests/test_model.py:370
+#: udata/uris.py:54
 msgid "Invalid URL \"{url}\""
 msgstr ""
 
@@ -78,7 +79,7 @@ msgstr ""
 msgid "is a local URL"
 msgstr ""
 
-#: udata/uris.py:130
+#: udata/tests/test_model.py:388 udata/uris.py:130
 msgid "is a private URL"
 msgstr ""
 
@@ -88,7 +89,7 @@ msgstr "Errore di convalida: i tuoi dati non possono essere aggiornati per il mo
 
 #: udata/api/oauth2.py:54
 msgid "Bearer Token"
-msgstr "Bearer Token"
+msgstr ""
 
 #: udata/api/oauth2.py:58
 msgid "Default scope"
@@ -228,7 +229,7 @@ msgstr "Nome"
 
 #: udata/core/contact_point/forms.py:14 udata/core/user/forms.py:18
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: udata/core/contact_point/forms.py:16 udata/core/dataset/forms.py:95
 #: udata/core/dataset/forms.py:153 udata/core/reuse/forms.py:39
@@ -372,7 +373,7 @@ msgstr "Aggiornamento"
 
 #: udata/core/dataset/constants.py:57 udata/core/reuse/constants.py:4
 msgid "API"
-msgstr "API"
+msgstr ""
 
 #: udata/core/dataset/constants.py:58
 msgid "Code repository"
@@ -440,7 +441,7 @@ msgstr "Tipo di file (documentazione, API…)"
 #: udata/core/dataset/forms.py:67 udata/core/reuse/forms.py:27
 #: udata/harvest/forms.py:64
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: udata/core/dataset/forms.py:69
 msgid "Format"
@@ -563,7 +564,7 @@ msgstr "Dati cardine"
 
 #: udata/core/dataset/models.py:539
 msgid "dataset"
-msgstr "dataset"
+msgstr ""
 
 #: udata/core/dataset/rdf.py:433 udata/tests/dataset/test_dataset_rdf.py:504
 msgid "{format} resource"
@@ -627,7 +628,7 @@ msgstr "Amministratore"
 
 #: udata/core/organization/constants.py:5
 msgid "Editor"
-msgstr "Editor"
+msgstr ""
 
 #: udata/core/organization/constants.py:11 udata/features/transfer/models.py:14
 #: udata/harvest/models.py:24 udata/harvest/models.py:34 udata/harvest/models.py:77
@@ -677,7 +678,7 @@ msgstr "URL del sito web dell'organizzazione"
 
 #: udata/core/organization/forms.py:53
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #: udata/core/organization/forms.py:54
 msgid "Business id"
@@ -751,11 +752,11 @@ msgstr ""
 
 #: udata/core/post/constants.py:7
 msgid "Markdown"
-msgstr "Markdown"
+msgstr ""
 
 #: udata/core/post/constants.py:8
 msgid "HTML"
-msgstr "HTML"
+msgstr ""
 
 #: udata/core/post/forms.py:17
 msgid "Headline"
@@ -839,7 +840,7 @@ msgstr "Applicazione"
 
 #: udata/core/reuse/constants.py:6
 msgid "Idea"
-msgstr "Idea"
+msgstr ""
 
 #: udata/core/reuse/constants.py:7
 msgid "News Article"
@@ -847,11 +848,11 @@ msgstr "Articolo di notizie"
 
 #: udata/core/reuse/constants.py:8
 msgid "Paper"
-msgstr "Paper"
+msgstr ""
 
 #: udata/core/reuse/constants.py:9
 msgid "Post"
-msgstr "Post"
+msgstr ""
 
 #: udata/core/reuse/constants.py:10
 msgid "Visualization"
@@ -955,7 +956,7 @@ msgstr "Numero di elementi nei feed"
 
 #: udata/core/spatial/constants.py:4
 msgid "POI"
-msgstr "POI"
+msgstr ""
 
 #: udata/core/spatial/forms.py:48
 msgid "Unknown geoid(s): {identifiers}"
@@ -1071,7 +1072,7 @@ msgstr "ha seguito un riuso"
 
 #: udata/core/user/forms.py:19
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: udata/core/user/forms.py:21
 msgid "About"
@@ -1171,7 +1172,7 @@ msgstr "Alcuni dettagli opzionali su questo harvester"
 
 #: udata/harvest/forms.py:65
 msgid "Backend"
-msgstr "Backend"
+msgstr ""
 
 #: udata/harvest/models.py:17
 msgid "Manual"
@@ -1215,7 +1216,7 @@ msgstr "Archiviato"
 
 #: udata/templates/admin.html:7
 msgid "Admin"
-msgstr "Admin"
+msgstr ""
 
 #: udata/templates/base.html:7
 msgid "You must be connected to do this action."
@@ -1590,10 +1591,6 @@ msgstr ""
 
 #: udata/templates/security/email/welcome_existing.html:25
 msgid "Here"
-msgstr ""
-
-#: udata/tests/api/test_datasets_api.py:764
-msgid "Invalid URL \"test\""
 msgstr ""
 
 #: udata/tests/forms/test_model_field.py:155
