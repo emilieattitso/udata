@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: udata\n"
+"Project-Id-Version: projet_crowdin\n"
 "Report-Msgid-Bugs-To: i18n@opendata.team\n"
 "POT-Creation-Date: 2024-04-15 12:06+0200\n"
-"PO-Revision-Date: 2024-04-15 10:07\n"
+"PO-Revision-Date: 2024-11-26 22:46\n"
 "Last-Translator: Open Data Team <i18n@opendata.team>\n"
-"Language: es\n"
-"Language-Team: Spanish\n"
+"Language: es_MX\n"
+"Language-Team: Spanish, Mexico\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Crowdin-Project: udata\n"
-"X-Crowdin-Project-ID: 291291\n"
-"X-Crowdin-Language: es-ES\n"
-"X-Crowdin-File: /master/udata/translations/udata.pot\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-Project: projet_crowdin\n"
+"X-Crowdin-Project-ID: 740493\n"
+"X-Crowdin-Language: es-MX\n"
+"X-Crowdin-File: /[emilieattitso.udata] webhooks/udata/translations/udata.pot\n"
+"X-Crowdin-File-ID: 508\n"
 
 #: udata/settings.py:103
 msgid "Welcome"
@@ -380,7 +380,7 @@ msgstr ""
 #: udata/core/dataset/forms.py:67 udata/core/reuse/forms.py:27
 #: udata/harvest/forms.py:64
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: udata/core/dataset/forms.py:69
 msgid "Format"
@@ -999,7 +999,7 @@ msgstr "ha seguido una reutilización "
 
 #: udata/core/user/forms.py:19
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: udata/core/user/forms.py:21
 msgid "About"
