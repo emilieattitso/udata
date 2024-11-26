@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: udata\n"
+"Project-Id-Version: projet_crowdin\n"
 "Report-Msgid-Bugs-To: i18n@opendata.team\n"
 "POT-Creation-Date: 2024-11-15 10:00+0100\n"
-"PO-Revision-Date: 2024-11-15 14:15\n"
+"PO-Revision-Date: 2024-11-26 22:38\n"
 "Last-Translator: Open Data Team <i18n@opendata.team>\n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Crowdin-Project: udata\n"
-"X-Crowdin-Project-ID: 291291\n"
+"X-Crowdin-Project: projet_crowdin\n"
+"X-Crowdin-Project-ID: 740493\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /master/udata/translations/udata.pot\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-File: /[emilieattitso.udata] refactor.resource-catalog/udata/translations/udata.pot\n"
+"X-Crowdin-File-ID: 436\n"
 
 #: udata/settings.py:101
 msgid "Welcome"
@@ -89,7 +89,7 @@ msgstr "Erreur de validation : vos données ne peuvent être sauvegardées pour
 
 #: udata/api/oauth2.py:55
 msgid "Bearer Token"
-msgstr "Bearer Token"
+msgstr ""
 
 #: udata/api/oauth2.py:58
 msgid "Default scope"
@@ -229,7 +229,7 @@ msgstr "Nom"
 
 #: udata/core/contact_point/forms.py:15 udata/core/user/forms.py:21
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: udata/core/contact_point/forms.py:17
 msgid "Contact form"
@@ -377,7 +377,7 @@ msgstr "Fichier principal"
 
 #: udata/core/dataset/constants.py:59
 msgid "Documentation"
-msgstr "Documentation"
+msgstr ""
 
 #: udata/core/dataset/constants.py:60
 msgid "Update"
@@ -385,7 +385,7 @@ msgstr "Mise à jour"
 
 #: udata/core/dataset/constants.py:61 udata/core/reuse/constants.py:4
 msgid "API"
-msgstr "API"
+msgstr ""
 
 #: udata/core/dataset/constants.py:62
 msgid "Code repository"
@@ -431,7 +431,7 @@ msgstr "Titre"
 #: udata/core/jobs/forms.py:28 udata/core/organization/forms.py:50
 #: udata/core/topic/forms.py:17 udata/harvest/forms.py:80
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #: udata/core/dataset/forms.py:71
 msgid "File type"
@@ -443,7 +443,7 @@ msgstr "Est-ce que la ressource est un fichier uploadé, un fichier distant ou u
 
 #: udata/core/dataset/forms.py:78
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 #: udata/core/dataset/forms.py:82
 msgid "Resource type (documentation, API...)"
@@ -451,11 +451,11 @@ msgstr "Type de ressource (documentation, API...)"
 
 #: udata/core/dataset/forms.py:84 udata/harvest/forms.py:82
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: udata/core/dataset/forms.py:86
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 #: udata/core/dataset/forms.py:91
 msgid "Mime type"
@@ -686,7 +686,7 @@ msgstr "L'URL du site web de votre organisation"
 
 #: udata/core/organization/forms.py:55
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #: udata/core/organization/forms.py:57
 msgid "Business id"
@@ -710,7 +710,7 @@ msgstr "Certifié"
 
 #: udata/core/organization/models.py:36
 msgid "Association"
-msgstr "Association"
+msgstr ""
 
 #: udata/core/organization/models.py:37
 msgid "Company"
@@ -760,11 +760,11 @@ msgstr "Votre organisation \"%(name)s\" a été identifiée comme étant une col
 
 #: udata/core/post/constants.py:9
 msgid "Markdown"
-msgstr "Markdown"
+msgstr ""
 
 #: udata/core/post/constants.py:10
 msgid "HTML"
-msgstr "HTML"
+msgstr ""
 
 #: udata/core/post/forms.py:16
 msgid "Headline"
@@ -784,7 +784,7 @@ msgstr "Réutilisations associées"
 
 #: udata/core/post/forms.py:22
 msgid "Image"
-msgstr "Image"
+msgstr ""
 
 #: udata/core/post/forms.py:23
 msgid "Image credits"
@@ -828,7 +828,7 @@ msgstr "Sécurité"
 
 #: udata/core/reports/constants.py:27
 msgid "Spam"
-msgstr "Spam"
+msgstr ""
 
 #: udata/core/reuse/activities.py:18
 msgid "created a reuse"
@@ -844,7 +844,7 @@ msgstr "a supprimé une réutilisation"
 
 #: udata/core/reuse/constants.py:5
 msgid "Application"
-msgstr "Application"
+msgstr ""
 
 #: udata/core/reuse/constants.py:6
 msgid "Idea"
@@ -1068,7 +1068,7 @@ msgstr "a suivi une réutilisation"
 
 #: udata/core/user/forms.py:22
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: udata/core/user/forms.py:24
 msgid "About"
@@ -1160,7 +1160,7 @@ msgstr "Ce champ requiert la définition de \"%(name)s\""
 
 #: udata/frontend/markdown.py:26
 msgid "Source"
-msgstr "Source"
+msgstr ""
 
 #: udata/harvest/forms.py:80
 msgid "Some optional details about this harvester"
@@ -1220,7 +1220,7 @@ msgstr "Un préfixe utilisé pour construire l'URL distante des éléments réco
 
 #: udata/templates/admin.html:7
 msgid "Admin"
-msgstr "Admin"
+msgstr ""
 
 #: udata/templates/base.html:7
 msgid "You must be connected to do this action."
@@ -1370,7 +1370,7 @@ msgstr "%(user)s a fermé une discussion sur %(type)s %(subject)s"
 #: udata/templates/mail/new_discussion.html:30
 #: udata/templates/mail/new_discussion_comment.html:31
 msgid "Message"
-msgstr "Message"
+msgstr ""
 
 #: udata/templates/mail/discussion_closed.html:40
 #: udata/templates/mail/new_discussion.html:38
