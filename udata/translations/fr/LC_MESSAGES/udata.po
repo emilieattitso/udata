@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: udata\n"
+"Project-Id-Version: projet_crowdin\n"
 "Report-Msgid-Bugs-To: i18n@opendata.team\n"
 "POT-Creation-Date: 2021-03-22 16:01+0100\n"
-"PO-Revision-Date: 2021-03-22 15:41\n"
+"PO-Revision-Date: 2024-11-26 22:30\n"
 "Last-Translator: Open Data Team <i18n@opendata.team>\n"
 "Language: fr\n"
 "Language-Team: French\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Crowdin-Project: udata\n"
-"X-Crowdin-Project-ID: 291291\n"
+"X-Crowdin-Project: projet_crowdin\n"
+"X-Crowdin-Project-ID: 740493\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /master/udata/translations/udata.pot\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-File: /[emilieattitso.udata] fix-data-dir-permissions/udata/translations/udata.pot\n"
+"X-Crowdin-File-ID: 352\n"
 
 #: udata/settings.py:101
 msgid "Welcome"
@@ -52,7 +52,7 @@ msgstr "Erreur de validation : vos données ne peuvent être sauvegardées pour
 
 #: udata/api/oauth2.py:54
 msgid "Bearer Token"
-msgstr "Bearer Token"
+msgstr ""
 
 #: udata/api/oauth2.py:58
 msgid "Default scope"
@@ -173,7 +173,7 @@ msgstr "Titre"
 #: udata/core/reuse/forms.py:21 udata/core/topic/forms.py:17
 #: udata/harvest/forms.py:62
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #: udata/core/dataset/forms.py:51
 msgid "File type"
@@ -189,7 +189,7 @@ msgstr "Est-ce que la ressource est un fichier uploadé, un fichier distant ou u
 #: udata/templates/reuse/search-panel.html:6
 #: udata/templates/reuse/search-result.html:16
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 #: udata/core/dataset/forms.py:58
 msgid "Resource type (documentation, API...)"
@@ -198,11 +198,11 @@ msgstr "Type de ressource (documentation, API...)"
 #: udata/core/dataset/forms.py:60 udata/core/reuse/forms.py:26
 #: udata/harvest/forms.py:64
 msgid "URL"
-msgstr "URL"
+msgstr ""
 
 #: udata/core/dataset/forms.py:62 udata/templates/dataset/search-labels.html:24
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 #: udata/core/dataset/forms.py:67
 msgid "Mime type"
@@ -427,7 +427,7 @@ msgstr "Fichier principal"
 
 #: udata/core/dataset/models.py:88
 msgid "Documentation"
-msgstr "Documentation"
+msgstr ""
 
 #: udata/core/dataset/models.py:89
 msgid "Update"
@@ -435,7 +435,7 @@ msgstr "Mise à jour"
 
 #: udata/core/dataset/models.py:90 udata/core/reuse/models.py:17
 msgid "API"
-msgstr "API"
+msgstr ""
 
 #: udata/core/dataset/models.py:91
 msgid "Code repository"
@@ -613,7 +613,7 @@ msgstr "L'URL du site web de votre organisation"
 
 #: udata/core/organization/forms.py:29
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #: udata/core/organization/forms.py:64
 msgid "Role"
@@ -735,7 +735,7 @@ msgstr "Réutilisations associées"
 
 #: udata/core/post/forms.py:22 udata/core/reuse/forms.py:28
 msgid "Image"
-msgstr "Image"
+msgstr ""
 
 #: udata/core/post/forms.py:23
 msgid "Image credits"
@@ -776,7 +776,7 @@ msgstr "Jeux de données utilisés"
 
 #: udata/core/reuse/models.py:18
 msgid "Application"
-msgstr "Application"
+msgstr ""
 
 #: udata/core/reuse/models.py:19
 msgid "Idea"
@@ -1017,7 +1017,7 @@ msgstr "a suivi une réutilisation"
 
 #: udata/core/user/forms.py:18
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: udata/core/user/forms.py:20
 msgid "About"
@@ -1122,7 +1122,7 @@ msgstr "%(start)s à %(end)s"
 
 #: udata/frontend/markdown.py:30
 msgid "Source"
-msgstr "Source"
+msgstr ""
 
 #: udata/harvest/forms.py:63
 msgid "Some optional details about this harvester"
@@ -1193,7 +1193,7 @@ msgstr "Une couverture temporelle est exprimée par début-fin où les deux date
 
 #: udata/templates/admin.html:7
 msgid "Admin"
-msgstr "Admin"
+msgstr ""
 
 #: udata/templates/apidoc.html:4
 msgid "API Documentation"
@@ -1418,7 +1418,7 @@ msgstr "Mot-clé"
 #: udata/templates/dataset/search-labels.html:12
 #: udata/templates/organization/search-labels.html:3 udata/templates/search.html:60
 msgid "Badge"
-msgstr "Badge"
+msgstr ""
 
 #: udata/templates/dataset/card.html:38 udata/templates/organization/card.html:30
 #: udata/templates/reuse/card.html:36 udata/templates/search.html:78
@@ -1626,14 +1626,14 @@ msgstr "Auteur"
 
 #: udata/templates/dataset/display.html:232 udata/templates/reuse/display.html:179
 msgid "Informations"
-msgstr "Informations"
+msgstr ""
 
 #: udata/templates/dataset/display.html:239
 #: udata/templates/dataset/search-panel.html:8
 #: udata/templates/organization/search-panel.html:5
 #: udata/templates/reuse/search-panel.html:5
 msgid "Badges"
-msgstr "Badges"
+msgstr ""
 
 #: udata/templates/dataset/display.html:261
 #: udata/templates/dataset/display.html:262
@@ -1667,7 +1667,7 @@ msgstr "Contributions communautaires"
 #: udata/templates/dataset/display.html:405 udata/templates/post/display.html:195
 #: udata/templates/reuse/display.html:273 udata/templates/site/dashboard.html:25
 msgid "Discussions"
-msgstr "Discussions"
+msgstr ""
 
 #: udata/templates/dataset/display.html:414 udata/templates/reuse/display.html:281
 msgid "Discussion between the organization and the community about this dataset."
@@ -1742,7 +1742,7 @@ msgstr "Granularité territoriale"
 
 #: udata/templates/dataset/search-panel.html:17
 msgid "Formats"
-msgstr "Formats"
+msgstr ""
 
 #: udata/templates/dataset/search-panel.html:18
 msgid "Known reuses"
@@ -1961,7 +1961,7 @@ msgstr "%(user)s a fermé une discussion sur %(type)s %(subject)s"
 #: udata/templates/mail/new_issue.html:29
 #: udata/templates/mail/new_issue_comment.html:31
 msgid "Message"
-msgstr "Message"
+msgstr ""
 
 #: udata/templates/mail/discussion_closed.html:40
 #: udata/templates/mail/new_discussion.html:38
@@ -2621,7 +2621,7 @@ msgstr "Niveau administratif"
 
 #: udata/templates/territories/search-result.html:30
 msgid "Population"
-msgstr "Population"
+msgstr ""
 
 #: udata/templates/territories/territory.html:17
 msgid "This territory has been replaced by:"
